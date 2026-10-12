@@ -2,33 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About Me | Melissa</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <h1>Welcome to my page!</h1>
-  </header>
-
+    <p class="tagline">I'm Melissa!</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#from">Where I'm From</a>
+      <a href="#study">Study</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#food">Favorite Food</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  
   <main>
 
-    <section>
+    <section id="about">
       <h2>About Me</h2>
-      <img src="images/Headshot.JPG" alt="Proffesional Headshot" width="250">
+      <img class="headshot" src="images/Headshot.JPG" alt="Professional headshot of Melissa smiling">
       <p>Hi, I'm Melissa and I'm 21 years old.</p>
     </section>
 
-    <section>
+    <section id="from">
       <h2>Where I'm From</h2>
       <p>I'm from Lima, Peru.</p>
     </section>
 
-    <section>
+    <section id="study">
       <h2>What I Study</h2>
       <p>I'm currently studying Information Technology and Data Science at <a href="https://www.uwgb.edu" target="_blank">UW-Green Bay</a>.</p>
     </section>
 
-    <section>
+    <section id="hobbies">
       <h2>My Hobbies</h2>
       <ul>
         <li>Running</li>
@@ -38,9 +48,23 @@
       </ul>
     </section>
 
-    <section>
-      <h2>My Favorite Peruvian Dish</h2>
+    <section id="food">
+      <h2>My Favorite Dish</h2>
       <p>My favorite Peruvian dish is ceviche.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <h3>Email</h3>
+          <a href="mailto:berrml22@uwgb.edu">berrml22@uwgb.com</a>
+        </div>
+        <div class="contact-item">
+          <h3>Phone</h3>
+          <a href="tel:+19209322594">(920) 932-2594</a>
+        </div>
+      </div>
     </section>
 
   </main>
